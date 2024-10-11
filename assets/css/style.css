@@ -1,0 +1,8 @@
+body{
+  width: 100%;
+  
+}
+.banner-inicio{
+  background-image: url(/assets/img/7fa9072fd06bc3be032d2bab9df1a06180fb963f_hq.gif);
+  background-size: cover;
+}
