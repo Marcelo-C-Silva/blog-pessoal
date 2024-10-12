@@ -1,8 +1,64 @@
-body{
+/* Background cobrindo 100% da tela */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  
-}
-.banner-inicio{
-  background-image: url(/assets/img/7fa9072fd06bc3be032d2bab9df1a06180fb963f_hq.gif);
+  height: 100%;
+  background-image: url('seu-background.jpg'); /* Insira o URL da sua imagem */
   background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+/* Imagem principal acima do banner */
+.image-header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-bottom: 3px solid #333;
+}
+
+/* Banner vintage */
+.banner {
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #333;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Links úteis e rádio à esquerda */
+aside {
+  margin-top: 30px;
+}
+
+/* Cartões de links e rádio */
+.card {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container flutuante principal */
+.content-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Cartões de post com mais espaço */
+.card-title {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Footer sempre visível */
+footer {
+  font-size: 0.9rem;
+  color: #555;
+  background-color: #f5f5f5;
+  width: 100%;
 }
